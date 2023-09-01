@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-01T10:42:48Z" name="Suite" finished-at="2023-09-01T10:44:18Z" duration-ms="89932">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T10:42:48Z" name="Test" finished-at="2023-09-01T10:44:18Z" duration-ms="89932">
+      <class name="stctest.sepv2357.NewTest1">
+        <test-method signature="f()[pri:0, instance:stctest.sepv2357.NewTest1@4c60d6e9]" started-at="2023-09-01T10:42:48Z" name="f" finished-at="2023-09-01T10:44:18Z" duration-ms="89916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- stctest.sepv2357.NewTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

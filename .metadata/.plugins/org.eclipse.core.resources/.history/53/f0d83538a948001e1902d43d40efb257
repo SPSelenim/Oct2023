@@ -1,0 +1,19 @@
+package stctest.sepv2357;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class NewTest1 {
+  @Test
+  public void f() {
+  System.out.println("S T A R T E D");
+  WebDriverManager.firefoxdriver().setup();
+  WebDriver driver=new FirefoxDriver();
+  driver.get("https://www.google.com/");
+  
+  }
+}
