@@ -31,6 +31,7 @@ public class NewTest2 extends MyLib{
   }
   finally
   {
+	System.out.println("Quitinnnng    ggggg");
 	  driver.quit();
   }
   }
