@@ -202,3 +202,7 @@
 2023-09-01 16:53:23,574 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Satish\03Eclipse_Workspace\wsSeptember2023v1\sepv2357\src\main\resources
 2023-09-01 16:53:23,576 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-09-01 16:53:23,576 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Satish\03Eclipse_Workspace\wsSeptember2023v1\sepv2357\src\test\resources
+2023-09-01 18:23:24,059 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-01 18:23:24,060 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Satish\03Eclipse_Workspace\wsSeptember2023v1\sepv2357\src\main\resources
+2023-09-01 18:23:24,063 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-01 18:23:24,063 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Satish\03Eclipse_Workspace\wsSeptember2023v1\sepv2357\src\test\resources

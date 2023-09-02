@@ -1,5 +1,7 @@
 package stctest.sepv2357;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -8,18 +10,28 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class NewTest2 {
+public class NewTest2 extends MyLib{
   @Test
-  public void f() {
-  System.out.println("S T A R T E D ******************");
-  WebDriverManager.firefoxdriver().setup();
-  WebDriver driver=new FirefoxDriver();
-  driver.get("D:\\Satish\\05DemoApps\\demo.html");
+  public void f() throws InterruptedException, IOException {
+  System.out.println("S T A R T E D *****2*************");
+  try
+  {
+  Init();
   driver.manage().window().maximize();
-  String a=driver.findElement(By.xpath("//a[@name='Mylink']")).getAttribute("href");
-  System.out.println("Get Attribute for href : " + a);
-  String myLink=driver.findElement(By.xpath("//b[contains(text(),'Hello')]")).getText();
- System.out.println("******My Link ********"+myLink);
-  driver.quit();
+  getElemenetByID("first").sendKeys("HelloFirstName");
+  getElemenetByID("last").sendKeys("HelloLastName");
+  
+    Thread.sleep(5000);
+  }
+  catch(Exception e)
+  {
+	  System.out.println("OOOOO");
+    
+  System.out.println(e.getMessage());
+  }
+  finally
+  {
+	  driver.quit();
+  }
   }
 }

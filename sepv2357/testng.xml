@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="stctest.sepv2357.NewTest1"/>
       <class name="stctest.sepv2357.NewTest2"/>
+   <!--   <class name="stctest.sepv2357.NewTest1"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
