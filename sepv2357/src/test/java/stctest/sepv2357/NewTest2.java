@@ -10,12 +10,14 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 //New Test 2 Parth
-//Again Add
 //New SP
 //02-09-2023 pa
 //03-09-2023
+//14 - 1
+
 public class NewTest2 extends MyLib{
-  @Test
+//03-09-2023 
+	@Test
   public void f() throws InterruptedException, IOException {
   System.out.println("S T A R T E D *****2*************");
   try
